@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="box">
+        <h1>Calculadora de Bhaskara</h1>
+        <p>Exemplo:</p>
+        <p><b>"2x2 – 16x – 18 = 0"</b></p>
+        <p>a = 2 (o que possui o x elevado) | b = -16 (o que só possui o x) | c = -18 (o que não acompanha x)</p>
+        <div class="buttons">
+            <p id ="A">A:</p><input type="number" id = "a" value="0"> 
+            <p >B:</p><input type="number" id = "b" value="0"> 
+            <p >C:</p><input type="number" id = "c" value="0">
+            <input id="calcular" type="button" value="Calcular" onclick="somar()">
+        </div>
+        <p>Resultado:</p>
+        <p id ="resultado">As raízes da equação são:</p>
+    </div>
+</body>
+</html>
